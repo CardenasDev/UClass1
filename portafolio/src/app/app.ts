@@ -8,11 +8,10 @@ import { Portafolio } from './pages/portafolio/portafolio';
 import { About } from './pages/about/about';
 import { Item } from './pages/item/item';
 
-import { AppRoutingModule } from './app-routing';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Header, Footer,Portafolio, About, Item, AppRoutingModule],
+  imports: [RouterOutlet, Header, Footer, Portafolio, About, Item],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
