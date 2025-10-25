@@ -1,0 +1,20 @@
+/* Animate.css tuning for item detail page */
+.rk-portfolio-cover.animate__animated {
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+}
+
+.rk-portfolio--inner .animate__animated {
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+}
+
+/* Staggered delays for image blocks inside the inner container */
+.rk-portfolio--inner .animate__animated:nth-of-type(1) { animation-delay: 0.05s; }
+.rk-portfolio--inner .animate__animated:nth-of-type(2) { animation-delay: 0.10s; }
+.rk-portfolio--inner .animate__animated:nth-of-type(3) { animation-delay: 0.15s; }
+.rk-portfolio--inner .animate__animated:nth-of-type(4) { animation-delay: 0.20s; }
+.rk-portfolio--inner .animate__animated:nth-of-type(5) { animation-delay: 0.25s; }
+.rk-portfolio--inner .animate__animated:nth-of-type(6) { animation-delay: 0.30s; }
+.rk-portfolio--inner .animate__animated:nth-of-type(7) { animation-delay: 0.35s; }
+.rk-portfolio--inner .animate__animated:nth-of-type(8) { animation-delay: 0.40s; }
